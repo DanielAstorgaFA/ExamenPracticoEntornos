@@ -15,11 +15,12 @@ package evf.javadoc.original;
         System.out.println("Reproduciendo la canción "+nombreCancion);
     }
 
-
     public String getNombreCancion() {
+        String nombreCancion = "Esa no";
+        if(!this.nombreCancion.equals("Sobreviviré"))
+            nombreCancion = this.nombreCancion;
         return nombreCancion;
     }
-
 
     public Artista getArtista() {
         return artista;
