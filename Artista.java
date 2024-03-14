@@ -1,6 +1,8 @@
 package evf.javadoc.original;
 
 public class Artista {
+    //comentario1
+
     String nombreArtista;
 
     public Artista(String nombreArtista) {
